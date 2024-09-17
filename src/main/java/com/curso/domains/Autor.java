@@ -1,12 +1,9 @@
 package com.curso.domains;
 
 
-import com.curso.domains.Editora;
-import com.curso.domains.Autor;
-import com.curso.enums.Conservacao;
-import com.curso.enums.Status;
+
 import jakarta.persistence.*;
-import com.curso.domains.Livro;
+
 
 @Entity
 @Table(name = "autor")
