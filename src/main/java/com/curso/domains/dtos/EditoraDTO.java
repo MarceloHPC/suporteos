@@ -23,7 +23,7 @@ public class EditoraDTO {
     public EditoraDTO(Editora editora) {
         this.id = editora.getIdEditora();
         this.razaoSocial = editora.getRazaoSocial();
-        this.cnpj = editora.getCNPJ();
+        this.cnpj = editora.getCnpj();
     }
 
     public int getId() {

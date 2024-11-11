@@ -10,16 +10,16 @@ public class Editora {
     public Editora() {
     }
 
-    public Editora(String razaoSocial, String CNPJ) {
+    public Editora(String razaoSocial, String cnpj) {
         this.razaoSocial = razaoSocial;
-        this.CNPJ = CNPJ;
+        this.cnpj = cnpj;
     }
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_editora")
     private Integer idEditora;
 
-    private String CNPJ;
+    private String cnpj;
 
     private String razaoSocial;
 
@@ -32,12 +32,12 @@ public class Editora {
         this.idEditora = idEditora;
     }
 
-    public String getCNPJ() {
-        return CNPJ;
+    public String getCnpj() {
+        return cnpj;
     }
 
-    public void setCNPJ(String CNPJ) {
-        this.CNPJ = CNPJ;
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
     }
 
     public String getRazaoSocial() {
